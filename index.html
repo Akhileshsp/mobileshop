@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 	
 </head>
 
@@ -144,7 +149,7 @@ hr {
 .logo1 {
     position: relative;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 3s;
 }
 
 </style>
@@ -153,19 +158,19 @@ hr {
 <!-- jumbotron style -->
 <body>
  
-    <div id="about" class="container-fluid">
+    <div id="home" class="container-fluid">
         <div class="container">
           <br><br>
           	<div class="col-sm-0.5 logo1">
-          	<img src="https://cdn.expertise.com/d/tx/austin/interior-design/austin_tx_interior-design_16.jpg" align="left" width="150" height="130"/>
+          	<img src="logo.jpg" align="left" width="150" height="130"/>
           	</div>
 
           	<div class="col-sm-11.5">
           	<div id="home" class="bgimg">
                 <div class="middle">
-                  <h1>Welcome to MV Mobile Service Center</h1>
+                  <h1 style="font-weight: bold;";>Welcome to MV Mobile Service Center</h1>
                   <hr>
-                  <p style="color:black;">All brands under One Roof!</p>
+                  <h2 style="color:black;">All brands under One Roof!</h2>
                 </div>
               </div>
 
@@ -188,12 +193,12 @@ hr {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
 	  </button>
-      <a class="navbar-brand" href="#myPage">UNIDECOR</a>
+      <a class="navbar-brand" href="#myPage">MV Mobile Service</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#events">HOME</a></li>
+        <li><a href="#About">ABOUT</a></li>
+        <li><a href="#home">HOME</a></li>
         <li><a href="#offers">OFFERS</a></li>
         <li><a href="#contact">CONTACT</a></li>
     		<li><a href="#gallery">Gallery</a></li>
@@ -207,20 +212,51 @@ hr {
 
 <br><br>
 
-<!-- About -->
-<div class="row slideanim">
-  <div id="about" class="container-fluid">
-
-  </div>
-</div>
-
-<!-- end of about -->
-<br><br>
-
 <!-- Gallery -->
 
 <div class="row slideanim">
   <div id="gallery" class="container-fluid">
+<h1 style="text-align: center;text-shadow: 10px 10px 3px lightgrey;font-family: 'Sofia';">We Solve your Problem! Just sit back and Call us ....... </h1><br><br>
+<div class="container">  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://prateekiit.com/img/course-single.jpg" style="width:100%;height:80%;">
+      </div>
+
+      <div class="item">
+        <img src="http://nebula.wsimg.com/03ea9743d93b8f55cf656d48a12388e9?AccessKeyId=FBE1B44823B95F6786DA&disposition=0&alloworigin=1" style="width:100%;height:80%;">
+      </div>
+    
+      <div class="item">
+        <img src="http://www.abcmit.com/wp-content/uploads/2017/08/mobile-repairing.jpg" style="width:100%;height:80%;">
+      </div>
+
+      <div class="item">
+        <img src="https://ak6.picdn.net/shutterstock/videos/15406246/thumb/1.jpg" style="width:100%;height:80%;">
+      </div>      
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
   </div>
 </div>
@@ -229,14 +265,36 @@ hr {
 
 <br><br>
 
+<!-- About -->
+<div class="row slideanim">
+  <div id="About" class="container-fluid">
+
+	<div class="col-sm-8">
+			<h1 style="text-align: center;">About Us <h1>
+
+     		<h5 style="line-height: 200%;margin-left: 30px;font-family: Comic Sans MS">
+			<b>MV Mobile Service Center</b> is a trusted service center in Bangalore, specialized in repairs of motherboards, mobile phones, Iphones. MV Mobile Service Center provides the best repair services to customers looking to get the device repaired. Our great passion has rewarded us for successfully rectifying over 2000+ device repairs during the span of 4-5 years of making the customers satisfied beyond their needs and expectations. <br>
+
+	      	<br>  MV Mobile Service Center provides services in the most easiest and convenient way of getting your gadgets repaired across all local hubs of Bangalore. We have a very well equipped staff of repairing gadgets majorly for International brands such as Samsung , Redme , Mi , Nokia , LG , HTC ,Motorola , Asus , Xiaomi , Huawei , Sony , BlackBerry , MicroMax , Lenovo , Vivo , OPPO , Lava and all series of Apple iPhones such as iPhone 4 & 4s, iphone 5 & 5s and iPhone 6 & 6s ,iPhone 7, iPhone 6s, and iPhone X. Our skilled team of technicians is experienced in multi-brand devices and specialized exclusively in repairing MAC brand and products for optimal performance.</h5>
+	</div>
+
+	<div class="col-sm-4">
+		<img src="http://www.uswirelessstore.com/wp-content/uploads/2016/10/banner11.png"></img>
+	</div>
+
+  </div>
+</div>
+
+<!-- end of about -->
+<br><br>
+
 <!-- Contact -->
 
-<div id="contact" class="container-fluid">
-<div class="col-sm-7 slideanim">
+<div id="contact" class="container-fluid" style="margin-left:20px;">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you soon :</p>
+      <h3>Contact us and we'll get back to you soon :</h3>
       <p><span class="glyphicon glyphicon-map-marker"></span> Rajarajeshwari Nagar, BANGALORE , KARNATAKA </p>
       <p><span class="glyphicon glyphicon-phone"></span> +917892120819 </p>
       <p><span class="glyphicon glyphicon-phone"></span> +919900706820 </p>
@@ -261,7 +319,6 @@ hr {
     </div>
   </div>
 </div>
-</div>
 <br><br>
   
  <!-- bottom containt -->
@@ -270,22 +327,25 @@ hr {
   <div class="row">
     <div class="col-sm-4">
       <h1 style="font-family:Courier New;"><u>NEWS</u></h1>
-      <h5><i>
-Typical interior of one of the houses in the Folk Architecture Reservation in Vlkolínec (Slovakia)
-In the past, interiors were put together instinctively as a part of the process of building.[1] The profession of interior design has been a consequence of the development of society and the complex architecture that has resulted from the development of industrial processes. <br>
+      <h5>
+			<b>MV Mobile Service Center</b> is a trusted service center in Bangalore, specialized in repairs of motherboards, mobile phones, Iphones. MV Mobile Service Center provides the best repair services to customers looking to get the device repaired. Our great passion has rewarded us for successfully rectifying over 2000+ device repairs during the span of 4-5 years of making the customers satisfied beyond their needs and expectations. <br> <br>
 	       <br>  The pursuit of effective use of space, user well-being and functional design has contributed to the development of the contemporary interior design <profession class=""></profession></i></h5>
 	</div>
-    <div class="col-sm-4" style="float:right;">
+    <div class="col-sm-8" style="float:right;">
       <h3 style="font-family:Courier New;">MAP TO OUR SHOP</h3>       
-<div id="map" style="width:400px;height:250px;background:lightblue"></div>
+<div id="map" style="width:800px;height:250px;background:lightblue"></div>
 
 <script>
 function myMap() {
   var mapCanvas = document.getElementById("map");
-  var mapOptions = {
-    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-  };
-  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var myCenter = new google.maps.LatLng(12.9140253,77.5260992); 
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker.setMap(map);
 }
 </script>
 
@@ -304,7 +364,7 @@ function myMap() {
     <span class="glyphicon glyphicon-chevron-up"></span>
 	</a>
 	<br><br>
-  <h6 align="left"> Copyrights &copy 2018 Akhilesh |All rights reserved| </h6>
+  <h5 align="center"> Copyrights &copy 2018 Akhilesh | All rights reserved | <span class="glyphicon glyphicon-phone"></span> For websites Contact: +918073451684 </h5>
 </footer>
 
 <!-- javascript for direct scrolling-->
@@ -390,5 +450,26 @@ var x = setInterval(function() {
     }
 }, 1000);
 </script>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 
 </html>
